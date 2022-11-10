@@ -1,0 +1,41 @@
+body {
+  margin: 50px;
+  font-size: 17px;
+}
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+table {
+  width: 600px;
+  /*  borda pega ao redor da tabela
+   border: 1px solid #000;  */
+
+}
+
+th, td {
+  /* border: 1px solid #888;
+  Coloca borda por Celulas, e o TH nas celulas titulo
+*/
+}
+
+table thead {
+    background-color: aquamarine;
+}
+
+table tbody {
+    background-color: blanchedalmond;
+
+}
+
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+
+
+ tbody tr:hover {
+  background-color: aliceblue;
+}
