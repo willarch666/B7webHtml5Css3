@@ -9,9 +9,11 @@
     <h1>Pagina de formulario</h1>
     
     <h2>Area de Login</h2>
+
     <form action="paginas/login.html" method="post">
-        
-        <input type="text" name="usuario" value="Nome"/>
+        <label for="usuario">Nome Completo:</label>
+        <br/>
+        <input type="text" name="usuario" id="usuario" value="Nome"/>
         <input type="submit" value="Entrar"/>
         
         <select name="ordenacao">
@@ -30,11 +32,20 @@
         <input type="submit" value="Cadastrar" />
         <textarea name="descricao">
 
-
+          
         </textarea>
+        <br/>
+        <br/>
+        <input type="checkbox" id="teste" />
+        <br/>
+        <label for="teste">Eu declaro que li e aceito os termos.</label>
+<br/>
+        <label>
+            Nome completo responsavel: <br/>
+            <input type="text" name="nome" />
 
 
-
+        </label>
     </form>
 
 
