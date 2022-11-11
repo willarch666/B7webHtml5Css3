@@ -2,11 +2,44 @@
 <html lang="">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Pagina de formulario</title>
+    <link rel="stylesheet" href="estilo.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <h1>Pagina de formulario</h1>
+    
+    <h2>Area de Login</h2>
+    <form action="paginas/login.html" method="post">
+        
+        <input type="text" name="usuario" value="Nome"/>
+        <input type="submit" value="Entrar"/>
+        
+        <select name="ordenacao">
+          <option value="maisvendidos">mais vendidos</option>
+          <option value="recentes" selected>recentes</option>
+
+        </select>
+
+        <button>texto do botao</button>
+
+    </form>
+    <h2>Area de Cadastro</h2>
+    <form action="paginas/login.html" method="post">
+
+        <input type="date" name="usuariocadastro" value="nome"/>
+        <input type="submit" value="Cadastrar" />
+        <textarea name="descricao">
+
+
+        </textarea>
+
+
+
+    </form>
+
+
+
+
+
   </body>
 </html>
