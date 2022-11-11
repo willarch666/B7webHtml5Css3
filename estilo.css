@@ -39,3 +39,53 @@ th, td {
  tbody tr:hover {
   background-color: aliceblue;
 }
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+input[type=text], textarea, select {
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 3px solid #ccc;
+    outline: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+textarea {
+    height: 200px;
+    
+}
+
+.termoslink {
+
+  color: blueviolet;
+  text-decoration: none;
+
+
+}
+
+.termoslink:hover {
+
+
+  text-decoration: underline;
+}
+
+button{
+
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  background-color: aqua;
+}
+
+button:hover{
+  background-color: antiquewhite;
+
+}

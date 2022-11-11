@@ -11,20 +11,23 @@
     <h2>Area de Login</h2>
 
     <form action="paginas/login.html" method="post">
-        <label for="usuario">Nome Completo:</label>
-        <br/>
-        <input type="text" name="usuario" id="usuario" value="Nome"/>
-        <input type="submit" value="Entrar"/>
         
+      <label for="usuario">Nome Completo:</label>
+        
+        <input type="text" name="usuario" id="usuario" value="Nome"/>
+        <br/>
+        <input type="submit" value="Entrar"/>
+        <br/>
         <select name="ordenacao">
           <option value="maisvendidos">mais vendidos</option>
           <option value="recentes" selected>recentes</option>
 
         </select>
-
+        <br/>
         <button>texto do botao</button>
 
     </form>
+    <br/>
     <h2>Area de Cadastro</h2>
     <form action="paginas/login.html" method="post">
 
@@ -38,7 +41,7 @@
         <br/>
         <input type="checkbox" id="teste" />
         <br/>
-        <label for="teste">Eu declaro que li e aceito os termos.</label>
+        <label for="teste">Eu declaro que li e aceito os <a href="paginas/termos.html" target="_blank" class="termoslink">termos de servico.</a></label>
 <br/>
         <label>
             Nome completo responsavel: <br/>
@@ -48,7 +51,17 @@
         </label>
     </form>
 
+    <form action="paginas/login.html" method="get">
+      <br/>
+      <label>
+          descricao : <br/>
+          <textarea name="descricao"></textarea>
 
+      </label>
+
+
+
+    </form>
 
 
 
